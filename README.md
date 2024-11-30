@@ -8,7 +8,6 @@
 
 **Details**:
 - Total steps taken each day, serving as a proxy for outdoor activity or physical movement.
-- Optional: Breakdown of activity intensity levels (e.g., light, moderate, vigorous) if available.
 
 #### **Spotify Listening Data**
 - **Source**: Spotify API.
@@ -28,7 +27,6 @@ This project seeks to analyze daily step counts to estimate time spent outside o
 **Key Research Questions**:
 1. Can daily step counts serve as a reliable indicator of the time spent outdoors or physical activity levels?
 2. As physical activity increases, how do Spotify listening habits (e.g., listening duration, genre preferences) change?
-3. Are there specific activity intensities (e.g., light vs. vigorous steps) that more strongly influence music listening behavior?
 
 ---
 
@@ -37,8 +35,7 @@ This project seeks to analyze daily step counts to estimate time spent outside o
 #### **Phase 1: Data Collection**
 
 - **Step Count Data**:
-  - Extract step count data from Apple Health, ensuring daily totals and timestamps are included.
-  - Focus on activity metrics that reflect movement intensity, if available.
+  - Extract daily totals and timestamps from Apple Health step count data.
 
 - **Spotify Data**:
   - Use Spotify API to collect listening history, including listening duration, song count, and audio features.
@@ -64,7 +61,7 @@ This project seeks to analyze daily step counts to estimate time spent outside o
   
 - **Behavioral Modeling**:
   - Develop a model to predict physical activity levels based on step count metrics.
-  - Analyze how increased step counts or activity levels influence music listening patterns (e.g., genres, energy levels, listening duration).
+  - Analyze how increased step counts influence music listening patterns (e.g., genres, energy levels, listening duration).
 
 - **Visualization**:
   - Create graphs to illustrate key trends, such as step counts vs. listening time or genre preferences at different activity levels.
@@ -75,12 +72,6 @@ This project seeks to analyze daily step counts to estimate time spent outside o
 
 - **Visual Reports**:
   - Generate clear visualizations showing the relationships between step counts, activity levels, and music behavior.
-  
-- **Documentation**:
-  - Present the methodology, key findings, and limitations in a concise report.
-  
-- **Future Work**:
-  - Propose enhancements, such as integrating additional data sources (e.g., weather, location, heart rate) for deeper insights.
 
 ---
 
@@ -88,11 +79,6 @@ This project seeks to analyze daily step counts to estimate time spent outside o
 
 - Identification of step counts as a potential proxy for outdoor time or physical activity levels.
 - Insights into how increased physical activity impacts music listening behaviors, such as duration, genre, or energy level.
-- Recommendations for potential applications, such as personalized playlist suggestions based on daily activity patterns.
 
 ---
 
-### **Notes**
-- Raw data will not be shared in this repository for privacy reasons.
-- The repository will include scripts for data collection, cleaning, and analysis, as well as visualizations of the results.
-- This README will be updated throughout the project lifecycle to reflect progress and new findings.
